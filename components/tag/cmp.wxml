@@ -1,0 +1,4 @@
+<!--components/tag/cmp.wxml-->
+<view class="container" catch:tap="onLinkTo">
+    {{tag}}
+</view>

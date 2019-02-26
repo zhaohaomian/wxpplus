@@ -1,0 +1,6 @@
+<!--大图组件-->
+<view class="container">
+    <image class="image" src="{{imgSrc}}"/>
+    <text class="text" >{{mainTitle}}</text>
+</view>
+
