@@ -1,0 +1,11 @@
+<!--components/tagList/cmp.wxml-->
+<view class='container'>
+<!-- 小程序默认只可以使用一个slot，所以需要在options里面设置 multipleSlots：true -->
+<!-- 预留位置 + -->
+  <slot name="before"></slot>
+  <tag class="tag" wx:for="{{markList}}" tag="{{item.type}}" tagId="{{item.typeId}}"
+ wx:key="{{type}}" 
+  />
+  <!-- 预留位置 。。。 -->
+   <slot name="after"></slot>
+</view>

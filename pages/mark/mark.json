@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "article-list": "/components/articleList/cmp",
+    "img-btn": "/components/imgBtn/cmp"
+  }
+}

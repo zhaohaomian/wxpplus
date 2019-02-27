@@ -5,7 +5,8 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    imgArr:Array,
+    mainTitle:String
   },
 
   /**
@@ -22,7 +23,7 @@ Component({
     previewImg(e){
       wx.previewImage({
         urls:this.data.imgArr,
-        current:e.currentTarget.dataSet.current
+  current:e.target.dataset.current
       })
     }
 

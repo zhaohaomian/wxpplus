@@ -1,18 +1,16 @@
 /* components/nineImg/cmp.wxss */
 
 .container {
-    width: 700rpx;
+    width:100%;
 }
 
 .img-container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
-    width: 700rpx;
+    justify-content: space-around;
+    width: 100%;
     height: 700rpx;
-
     overflow: hidden;
 
 }

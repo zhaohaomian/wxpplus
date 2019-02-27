@@ -1,17 +1,17 @@
 /* components/video/cmp.wxss */
 
 .container {
-    width: 700rpx;
+    width:100%;
 }
 
 .video {
-    width: 700rpx;
+    width: 100%;
     height: 400rpx;
 }
 
 .poster-container {
     position: relative;
-    width: 700rpx;
+    width: 100%;
     height: 400rpx;
 
 }

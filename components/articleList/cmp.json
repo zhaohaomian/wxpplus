@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "m-article": "/components/article/cmp",
+    "loading": "/components/loading/cmp"
+  }
+}

@@ -1,7 +1,7 @@
 /* components/bigImg/cmp.wxss */
 
 .image {
-    width: 700rpx;
+    width: 100%;
 }
 
 .text {

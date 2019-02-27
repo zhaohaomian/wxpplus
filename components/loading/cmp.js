@@ -1,11 +1,10 @@
-// like组件
-
+// components/loading/cmp.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    like:  Boolean
+    hidden:Boolean
   },
 
   /**
@@ -19,14 +18,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onLike() {
 
-      this.setData({
-          like: !this.data.like
-      })
-      this.triggerEvent('like',{
-        like:this.data.like
-      })
-    }
   }
 })

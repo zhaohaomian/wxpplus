@@ -1,11 +1,14 @@
-// like组件
-
+// components/tagList/cmp.js
 Component({
+  options:{
+    multipleSlots:true
+  },
+
   /**
    * 组件的属性列表
    */
   properties: {
-    like:  Boolean
+    markList:Array
   },
 
   /**
@@ -19,14 +22,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onLike() {
 
-      this.setData({
-          like: !this.data.like
-      })
-      this.triggerEvent('like',{
-        like:this.data.like
-      })
-    }
   }
 })

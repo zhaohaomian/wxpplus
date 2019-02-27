@@ -4,10 +4,10 @@
     <view class='img-container'>
        
        <image  class='image'
-               catch:tap="previewImg"
+               bind:tap="previewImg"
                wx:for="{{imgArr}}"
                wx:if="{{index < 9}}"
-               wx:for="this"
+               wx:key="this"
                src="{{item}}"
                data-current="{{item}}"
         ></image>
@@ -21,7 +21,7 @@
     </view>
     
     <view class="text-container">
-      <text></text>
+      <text>{{mainTitle}}</text>
     </view>
 
 </view>

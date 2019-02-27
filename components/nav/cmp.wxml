@@ -1,0 +1,11 @@
+<!--components/nav/cmp.wxml-->
+<scroll-view scroll-x="{{true}}" class='container'  scroll-into-view="{{'magazine'+magazineIndex=='magazine1'?'magazine0':'magazine'+magazineIndex}}"
+scroll-with-animation="{{true}}"
+>
+    <text class="type  {{index==magazineIndex?'active' :''}}"
+           wx:for="{{magazineTypeArr}}" wx:key="*this"
+           data-index="{{index}}"
+           bind:tap="changeIndex" 
+           id="{{'magazine'+index}}"
+          >{{item}}</text>
+</scroll-view>
